@@ -1,0 +1,9 @@
+dev:
+  {
+    url: "https://stockanalysis.com/stocks/{ticker}",
+    tickers: ["AMZN", "MSFT", "AAPL", "RXT"],
+  }
+
+qa: { url: "https://stockanalysis.com/stocks/{ticker}", tickers: ["AMZN"] }
+
+prod: { url: "https://stockanalysis.com/stocks/{ticker}", tickers: ["AMZN"] }
